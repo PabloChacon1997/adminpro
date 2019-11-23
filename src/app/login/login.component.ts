@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-declare function init_plugins();
+declare function init_plugins(): any;
 
 @Component({
   selector: 'app-login',
